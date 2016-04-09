@@ -36,7 +36,7 @@ else
 fi
 
 echo "-----> Adding toolbelt to path"
-echo 'export PATH="$PATH:vendor/heroku-toolbelt/bin"'
+export PATH="$PATH:vendor/heroku-toolbelt/bin"
 
 mv heroku-client/* .
 rmdir heroku-client
